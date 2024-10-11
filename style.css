@@ -1,0 +1,246 @@
+@charset "UTF-8";
+body{
+    display: block;
+    text-align: center;
+    color: #3a4547;
+    background-color: #fff5fc;
+    line-height: 1.8rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-style: normal;
+    width: 100%;
+    margin: 0 auto;
+}
+p,li,.ns{
+    font-family: "BIZ UDPMincho", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+header{
+    position: sticky;
+    width: 100%;
+    padding: 18px 4% 10px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #ffe8f7;
+}
+header h1{
+    margin: 0;padding: 0;
+    font-size: 20px;
+}
+nav{
+    margin: 0 0 0 500px;
+}   
+ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #3a4547;
+    
+}
+li{
+    padding-left: 10px;
+    margin: 0 0 0 15px;
+    font-size: 18px;
+}
+li+ li{
+    border-left: solid 1px #3a4547;
+    border-spacing: 5px;
+}
+img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
+}
+
+#project{
+    padding:80px;
+    margin-top:-30px;
+    margin-bottom:-50px;
+    padding-left: 50px;
+}
+.pt{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ece9ff;
+    border: dashed #d5ceff 3.5px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.pt a{
+    color: #a0b997;
+    text-decoration:underline;
+}
+
+#news{
+    padding: 80px;
+    margin-top:-45px;
+    margin-bottom:-35px;
+}
+.ns{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+  
+
+#attemp{
+    padding: 70px;
+    margin-top:-15px;
+    margin-bottom:-55px;
+}
+.ap{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+}
+.box-img{
+    width: 44%;
+    height: 40vh;
+    padding: 30px;
+}
+
+#member{
+    padding: 70px;
+    margin-top:-15px;
+    margin-bottom:-55px;
+}
+.mr{
+    width: 90%;
+    margin: 0 auto;
+    border: dashed #000 3px;
+    border-radius: 10px;
+    background-color: #fbffe9;
+    border: dashed #fff8ce 3.5px;
+    padding-bottom: 25px;
+}
+.block{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 55px;
+}
+.kis{
+    left: 4vh;
+    padding: 20px;
+    width: 110px; height: 70px;
+    padding-left: 40px; padding-right: 40px;
+}
+
+#sponsr{
+    padding: 70px;
+    margin-top:-15px;
+    margin-bottom:-55px;
+}
+.sr{
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 55px;
+}
+.pon{
+    left: 4vh;
+    padding: 20px;
+    width: 110px; height: 70px;
+    padding-left: 40px; padding-right: 40px;
+}
+
+#support{
+    padding: 70px;
+    margin-top:-45px;
+    margin-bottom:-35px;
+}
+.st{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: -3px;
+    background-color: #f0ffef;
+    border-radius: 10px;
+    border: dashed #d8ffd7 3.5px;
+    border-radius: 10px;
+}
+.st h3{
+    margin: 0; padding: 0;
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 25px;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#inquiry{
+    padding: 70px;
+    margin-top:-45px;
+    margin-bottom:-35px;
+}
+.iy{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+
+
+.button a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 250px;
+    padding: 10px 25px;
+    font-family: "Noto Sans Japanese";
+    text-decoration: none;
+    color: #333;
+    line-height: 1.8;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 2rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+}
+.button a:hover {
+  background: #4f0020;
+  color: #FFF;
+}
+.button a:hover:after {
+  right: 1.4rem;
+}
